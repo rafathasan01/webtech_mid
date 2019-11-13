@@ -1,0 +1,79 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add Moderator</title>
+</head>
+
+<body>
+	
+<center>
+<table width="40%" height="" align="center">
+<tr><td>
+
+<form action="addmoderator.php" method="POST">	
+ <fieldset border="2" width="50%" height="40%" align="center" >
+<legend> <center><h1 > Add Moderator</h1> </center></legend>
+
+<table>
+<tr>
+				<td>ID:</td>
+				<td><input type="text" name="Id"></td>
+			</tr>
+			<tr>
+				<td>Name:</td>
+				<td><input type="text" name="Name" ></td>
+			</tr>
+			<tr>
+				<td>Date of Birth:</td>
+				<td><input type="date" name="DOB" ></td>
+			</tr>
+			<tr>
+				<td>Address:</td>
+				<td><textarea name="add"></textarea></td>
+			</tr>
+			<tr>
+				<td>Password:</td>
+				<td><input type="password" name="Password"></td>
+			</tr>
+
+			<tr>
+				<td>Confirm Password:</td>
+				<td><input type="password" name="ConfirmPassword"></td>
+			</tr>
+			<tr>
+				<td>Phone:</td>
+				<td><input type="Number" name="Phn"></td>
+			</tr>
+   
+ <tr><td> Gender Type : <td> <input type= "radio" name= "gender" value="Male" > Male<input type= "radio" name= "gender" value="Female" >Female 
+ </td>
+ </tr>
+
+<tr><td> User Type : <td> <input type= "radio" name= "moderator" value="Moderator" > Moderator
+ </td>
+ </tr>
+
+<td> <hr> </hr> </td>
+</tr>
+<tr>
+<td> <input type= "submit" name= "submit" value= "Add"> <a href="moderatorDetails.php">Moderator List</a> </td>
+</tr>
+
+</table>
+</fieldset>
+</form>
+
+
+
+
+</table>
+
+</center>
+
+
+</body>
+
+</html>
